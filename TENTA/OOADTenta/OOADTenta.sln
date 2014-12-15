@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOADTenta", "OOADTenta\OOADTenta.csproj", "{07947504-E345-49FA-8502-8D43AE87610D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestTentan", "UnitTestTentan\UnitTestTentan.csproj", "{AFB0F59F-CF88-4CC9-BA08-CE0D3068849F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07947504-E345-49FA-8502-8D43AE87610D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07947504-E345-49FA-8502-8D43AE87610D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07947504-E345-49FA-8502-8D43AE87610D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07947504-E345-49FA-8502-8D43AE87610D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFB0F59F-CF88-4CC9-BA08-CE0D3068849F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB0F59F-CF88-4CC9-BA08-CE0D3068849F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB0F59F-CF88-4CC9-BA08-CE0D3068849F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB0F59F-CF88-4CC9-BA08-CE0D3068849F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
