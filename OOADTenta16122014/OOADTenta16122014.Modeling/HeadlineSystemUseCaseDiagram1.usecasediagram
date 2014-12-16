@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="b8ad9676-1bc9-4140-b5ff-e4f88bfc7e60" name="UMLUseCaseDiagram1" linkedPackageId="18882b44-0e87-417c-a20f-56998fd00ecb" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="7f8ca4cc-a92e-4b8d-ad20-abf4e6921067">
+      <profileInstance Id="67cf8968-ab59-4a39-a8e7-297395071efb" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="7b557415-db51-494d-9d03-19d36c17f9b0">
+      <profileInstance Id="e83bc49e-0df8-44c9-b64a-6bd42b4392d7" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="358c4017-829f-4d93-a494-dcc8ad999d3c" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="03600ae9-b408-4335-b26f-b1854e560ae8" />
+        <targetEnds>
+          <association Id="3e39b134-115b-49b9-9257-014973fa1f32" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Headlinesystem" isLeaf="false" isAbstract="false">
+            <subsystemMoniker Id="32876ef6-4511-4a24-8ec1-2bdbc11051c0" LastKnownName="Headlinesystem" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ced60596-c376-4691-8d39-dee9346e4ffd" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="89a2b01b-6b20-447e-86d3-ced7fc611a4c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="08671e03-e28e-4287-9e0f-7eb20ad04150" name="Headlinesystem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1bde4ac1-ad6b-4398-8a25-84d42baf1d1d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="60a6f79d-d809-4a07-9376-4854ab502929" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="32876ef6-4511-4a24-8ec1-2bdbc11051c0" name="Headlinesystem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="95ac5473-a222-4328-a330-ae9d5a83a5e0" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="5f4279ba-073f-4dbb-9474-d66346ac0d21" name="Read top headline" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="812ea38a-728a-48fd-9a87-493da4110cb0" />
+        <subjects>
+          <subsystemMoniker Id="32876ef6-4511-4a24-8ec1-2bdbc11051c0" LastKnownName="Headlinesystem" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="18882b44-0e87-417c-a20f-56998fd00ecb" name="OOADTenta16122014.Modeling">
+    <elementDefinition Id="6d0f625d-3b4e-4237-9f39-bcf9c2dd00c9" />
+  </package>
+</useCaseModelRoot>
