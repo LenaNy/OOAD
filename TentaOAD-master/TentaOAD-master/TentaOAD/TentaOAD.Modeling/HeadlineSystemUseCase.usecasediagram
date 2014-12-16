@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="c03907b4-d014-4443-842d-deb6ab24c273" name="CrimeHeadlineSystemUseCase" linkedPackageId="85c5b9ae-2214-45e4-a7db-d7b0cb4ae1b2" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="a7b8cb70-ffed-4f7c-a00b-9dc5ff73bb64" name="user" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dde64b7a-6d61-49e7-81bd-323f0dc4a622" />
+        <targetEnds>
+          <association Id="50919a5d-d503-497b-bd89-00430477b14f" isDerived="false" sourceEndRoleName="Criminal" targetEndRoleName="Read Top Crimes" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ccb81351-1f2f-4206-9956-fda5625ab51b" LastKnownName="Read top headline" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="be39500f-fc6f-46fa-9402-9256a2533f5b" name="Criminal" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="262077a7-0c49-4a68-b80e-bc54a51162d6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="94715eab-524c-4863-bdc4-b80f3ff73f85" name="Read Top Crimes" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e47a7700-a667-4cd6-a85a-48ef035f21e2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d11f8bb6-f973-448b-9c94-6aefc9028483" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="58ed11b8-2b27-46d3-9e53-7fc8bf3fe437" name="Headlinesystem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0d4ee9e5-059a-43b5-8ad3-ae40b88ab9af" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="ccb81351-1f2f-4206-9956-fda5625ab51b" name="Read top headline" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="71ecea71-bd38-4b26-a264-d04692c4a67d" />
+        <subjects>
+          <subsystemMoniker Id="58ed11b8-2b27-46d3-9e53-7fc8bf3fe437" LastKnownName="Headlinesystem" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="85c5b9ae-2214-45e4-a7db-d7b0cb4ae1b2" name="TentaOAD.Modeling">
+    <elementDefinition Id="eae4de9a-516d-45dd-b965-ce68918c97d1" />
+    <profileInstances>
+      <packageHasProfileInstances Id="1dcae7e7-34ee-445d-9d9d-f0a73246b0b6">
+        <profileInstance Id="b053edee-bbaa-42ef-a5ad-a0212edcfcfc" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="7d6b74e8-c6d7-4478-a17a-61be9c6bcca0">
+        <profileInstance Id="1332590f-9587-46c9-a84b-22e84e24f1ee" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
